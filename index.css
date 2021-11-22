@@ -1,0 +1,65 @@
+.header{
+    background:#B9DFD7;
+    padding:0.5rem 0;
+}
+.header_box {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  object-fit: contain;
+  display: flex;
+  align-items:center;
+  font-medium:600
+}
+
+
+
+.transition{
+    transition: all;
+    transition-duration: 300ms;
+    transition-timing-function: easy-in-out;
+}
+
+
+
+.txt_signin:hover{
+    color:#52A593;
+    cursor:pointer
+}
+
+
+
+.input-icons i {
+    position: absolute;
+    display:flex;
+    align-items:center;
+}
+  
+.input-icons {
+    position:relative;
+    width: 100%;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 32px;
+    min-height:32px;
+    color:#aaa
+}
+  
+.input-field {
+    width: 100%;
+    padding: 8px 32px;
+    outline:none;
+    border-radius:8px;
+    border:none;
+    height:32px
+}
+
+
+
+.input-field:focus {
+    box-shadow: 0 0 5px #52A593;
+  }
